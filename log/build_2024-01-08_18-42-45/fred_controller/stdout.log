@@ -1,0 +1,25 @@
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/luis/fred/build/fred_controller
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/luis/fred/install/fred_controller/share/ament_index/resource_index/package_run_dependencies/fred_controller
+-- Symlinking: /home/luis/fred/install/fred_controller/share/ament_index/resource_index/parent_prefix_path/fred_controller
+-- Symlinking: /home/luis/fred/install/fred_controller/share/fred_controller/environment/ament_prefix_path.sh
+-- Symlinking: /home/luis/fred/install/fred_controller/share/fred_controller/environment/ament_prefix_path.dsv
+-- Symlinking: /home/luis/fred/install/fred_controller/share/fred_controller/environment/path.sh
+-- Symlinking: /home/luis/fred/install/fred_controller/share/fred_controller/environment/path.dsv
+-- Symlinking: /home/luis/fred/install/fred_controller/share/fred_controller/local_setup.bash
+-- Symlinking: /home/luis/fred/install/fred_controller/share/fred_controller/local_setup.sh
+-- Symlinking: /home/luis/fred/install/fred_controller/share/fred_controller/local_setup.zsh
+-- Symlinking: /home/luis/fred/install/fred_controller/share/fred_controller/local_setup.dsv
+-- Symlinking: /home/luis/fred/install/fred_controller/share/fred_controller/package.dsv
+-- Symlinking: /home/luis/fred/install/fred_controller/share/ament_index/resource_index/packages/fred_controller
+-- Symlinking: /home/luis/fred/install/fred_controller/share/fred_controller/cmake/fred_controllerConfig.cmake
+-- Symlinking: /home/luis/fred/install/fred_controller/share/fred_controller/cmake/fred_controllerConfig-version.cmake
+-- Symlinking: /home/luis/fred/install/fred_controller/share/fred_controller/package.xml

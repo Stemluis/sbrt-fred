@@ -1,0 +1,1024 @@
+<?xml version="1.0" ?>
+<robot name="Fred" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find Fred_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find Fred_description)/urdf/Fred.trans" />
+<xacro:include filename="$(find Fred_description)/urdf/Fred.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="-6.332888513373975e-16 1.583222128343494e-17 0.0025" rpy="0 0 0"/>
+    <mass value="0.17061404182695633"/>
+    <inertia ixx="0.000396" iyy="0.000396" izz="0.000791" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="U-Mount_v2__2__1">
+  <inertial>
+    <origin xyz="-0.0067448158266861374 -0.01234718417331375 0.0015000000000000508" rpy="0 0 0"/>
+    <mass value="0.001617858655750926"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.067838 0.048746 -0.005" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/U-Mount_v2__2__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.067838 0.048746 -0.005" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/U-Mount_v2__2__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="U-Mount_v2_1">
+  <inertial>
+    <origin xyz="0.012347184173313812 -0.006744815826686186 0.0015000000000000126" rpy="0 0 0"/>
+    <mass value="0.001617858655750926"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.048746 -0.067838 -0.005" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/U-Mount_v2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.048746 -0.067838 -0.005" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/U-Mount_v2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="U-Mount_v2__1__1">
+  <inertial>
+    <origin xyz="0.006744815826686151 0.012347184173313812 0.001500000000000003" rpy="0 0 0"/>
+    <mass value="0.001617858655750926"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.067838 -0.048746 -0.005" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/U-Mount_v2__1__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.067838 -0.048746 -0.005" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/U-Mount_v2__1__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="U-Mount_v2__3__1">
+  <inertial>
+    <origin xyz="-0.012347184173313736 0.006744815826686151 0.0015000000000000326" rpy="0 0 0"/>
+    <mass value="0.001617858655750926"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.048746 0.067838 -0.005" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/U-Mount_v2__3__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.048746 0.067838 -0.005" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/U-Mount_v2__3__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="AX-12A_v2__2__1">
+  <inertial>
+    <origin xyz="-0.008415635260180326 -0.010676357629209765 0.01645664033601793" rpy="0 0 0"/>
+    <mass value="0.04345725719437503"/>
+    <inertia ixx="9e-06" iyy="9e-06" izz="1.1e-05" ixy="3e-06" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.079152 0.06006 -0.008" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2__2__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.079152 0.06006 -0.008" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2__2__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="AX-12A_v2__3__1">
+  <inertial>
+    <origin xyz="0.010676357629209932 -0.008415635260180396 0.016456640336017986" rpy="0 0 0"/>
+    <mass value="0.04345725719437503"/>
+    <inertia ixx="9e-06" iyy="9e-06" izz="1.1e-05" ixy="-3e-06" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.06006 -0.079152 -0.008" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2__3__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.06006 -0.079152 -0.008" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2__3__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="AX-12A_v2__10__1">
+  <inertial>
+    <origin xyz="-0.010676364739819713 -0.00841564237079008 0.016456640336017975" rpy="0 0 0"/>
+    <mass value="0.04345725719437503"/>
+    <inertia ixx="9e-06" iyy="9e-06" izz="1.1e-05" ixy="3e-06" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.06006 -0.079152 -0.008" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2__10__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.06006 -0.079152 -0.008" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2__10__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="AX-12A_v2__9__1">
+  <inertial>
+    <origin xyz="0.008415642370790205 -0.0106763647398197 0.01645664033601802" rpy="0 0 0"/>
+    <mass value="0.04345725719437503"/>
+    <inertia ixx="9e-06" iyy="9e-06" izz="1.1e-05" ixy="-3e-06" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.079152 0.06006 -0.008" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2__9__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.079152 0.06006 -0.008" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2__9__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="F2_Frame_with_Horn_v3__4__1">
+  <inertial>
+    <origin xyz="-0.008866141921158532 -0.008868361448647291 -0.010847674499923382" rpy="0 0 0"/>
+    <mass value="0.011624112572770259"/>
+    <inertia ixx="5e-06" iyy="5e-06" izz="2e-06" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.080036 0.080036 -0.03775" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/F2_Frame_with_Horn_v3__4__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.080036 0.080036 -0.03775" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/F2_Frame_with_Horn_v3__4__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="F2_Frame_with_Horn_v3__5__1">
+  <inertial>
+    <origin xyz="0.00886836144864725 -0.008866141921158435 -0.010847674499923628" rpy="0 0 0"/>
+    <mass value="0.011624112572770259"/>
+    <inertia ixx="5e-06" iyy="5e-06" izz="2e-06" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.080036 0.080036 -0.03775" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/F2_Frame_with_Horn_v3__5__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.080036 0.080036 -0.03775" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/F2_Frame_with_Horn_v3__5__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="F2_Frame_with_Horn_v3__1__1">
+  <inertial>
+    <origin xyz="0.008866141921158657 0.008868361448647222 -0.010847674499923417" rpy="0 0 0"/>
+    <mass value="0.011624112572770259"/>
+    <inertia ixx="5e-06" iyy="5e-06" izz="2e-06" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.080036 -0.080036 -0.03775" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/F2_Frame_with_Horn_v3__1__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.080036 -0.080036 -0.03775" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/F2_Frame_with_Horn_v3__1__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="F2_Frame_with_Horn_v3_1">
+  <inertial>
+    <origin xyz="-0.008868361448647374 0.00886614192115863 -0.0108476744999234" rpy="0 0 0"/>
+    <mass value="0.011624112572770259"/>
+    <inertia ixx="5e-06" iyy="5e-06" izz="2e-06" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.080036 -0.080036 -0.03775" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/F2_Frame_with_Horn_v3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.080036 -0.080036 -0.03775" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/F2_Frame_with_Horn_v3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="F2_Frame_with_Horn_v3__6__1">
+  <inertial>
+    <origin xyz="-0.007429443557329038 -0.012312221768970719 -0.007998750641466844" rpy="0 0 0"/>
+    <mass value="0.011624112572770259"/>
+    <inertia ixx="4e-06" iyy="3e-06" izz="5e-06" ixy="1e-06" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.098774 0.098774 -0.03145" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/F2_Frame_with_Horn_v3__6__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.098774 0.098774 -0.03145" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/F2_Frame_with_Horn_v3__6__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="F2_Frame_with_Horn_v3__2__1">
+  <inertial>
+    <origin xyz="-0.012312221768970899 0.007429443557329177 -0.007998750641466774" rpy="0 0 0"/>
+    <mass value="0.011624112572770259"/>
+    <inertia ixx="3e-06" iyy="4e-06" izz="5e-06" ixy="-1e-06" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.098774 -0.098774 -0.03145" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/F2_Frame_with_Horn_v3__2__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.098774 -0.098774 -0.03145" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/F2_Frame_with_Horn_v3__2__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="F2_Frame_with_Horn_v3__3__1">
+  <inertial>
+    <origin xyz="0.007429443557329191 0.01231222176897065 -0.00799875064146684" rpy="0 0 0"/>
+    <mass value="0.011624112572770259"/>
+    <inertia ixx="4e-06" iyy="3e-06" izz="5e-06" ixy="1e-06" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.098774 -0.098774 -0.03145" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/F2_Frame_with_Horn_v3__3__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.098774 -0.098774 -0.03145" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/F2_Frame_with_Horn_v3__3__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="F2_Frame_with_Horn_v3__7__1">
+  <inertial>
+    <origin xyz="0.01231222176897058 -0.007429443557328802 -0.007998750641467135" rpy="0 0 0"/>
+    <mass value="0.011624112572770259"/>
+    <inertia ixx="3e-06" iyy="4e-06" izz="5e-06" ixy="-1e-06" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.098774 0.098774 -0.03145" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/F2_Frame_with_Horn_v3__7__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.098774 0.098774 -0.03145" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/F2_Frame_with_Horn_v3__7__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="AX-12A_v2__8__1">
+  <inertial>
+    <origin xyz="-0.018698694621870376 0.00010024829479443609 -3.1505644476972905e-07" rpy="0 0 0"/>
+    <mass value="0.04345725719437503"/>
+    <inertia ixx="9e-06" iyy="8e-06" izz="1.2e-05" ixy="-2e-06" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.107401 0.127624 -0.02345" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2__8__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.107401 0.127624 -0.02345" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2__8__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="AX-12A_v2_1">
+  <inertial>
+    <origin xyz="0.00010024829479407527 0.01869869462187057 -3.1505644463095117e-07" rpy="0 0 0"/>
+    <mass value="0.04345725719437503"/>
+    <inertia ixx="8e-06" iyy="9e-06" izz="1.2e-05" ixy="2e-06" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.127624 -0.107401 -0.02345" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.127624 -0.107401 -0.02345" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="AX-12A_v2__1__1">
+  <inertial>
+    <origin xyz="0.018698694621870626 -0.00010024829479438058 -3.150564447350346e-07" rpy="0 0 0"/>
+    <mass value="0.04345725719437503"/>
+    <inertia ixx="9e-06" iyy="8e-06" izz="1.2e-05" ixy="-2e-06" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.107401 -0.127624 -0.02345" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2__1__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.107401 -0.127624 -0.02345" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2__1__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="AX-12A_v2__7__1">
+  <inertial>
+    <origin xyz="-0.00010024829479432507 -0.018698694621870293 -3.1505644519994047e-07" rpy="0 0 0"/>
+    <mass value="0.04345725719437503"/>
+    <inertia ixx="8e-06" iyy="9e-06" izz="1.2e-05" ixy="2e-06" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.127624 0.107401 -0.02345" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2__7__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.127624 0.107401 -0.02345" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2__7__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Connection_Mount_v2__2__1">
+  <inertial>
+    <origin xyz="-0.00565568348611295 0.016972046386872247 0.003095946043759727" rpy="0 0 0"/>
+    <mass value="0.025354039664650947"/>
+    <inertia ixx="3e-06" iyy="3e-06" izz="5e-06" ixy="1e-06" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.127553 0.150959 -0.03695" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Connection_Mount_v2__2__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.127553 0.150959 -0.03695" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Connection_Mount_v2__2__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Connection_Mount_v2__7__1">
+  <inertial>
+    <origin xyz="0.016972148681356394 -0.0056555811916346455 0.003095946043759734" rpy="0 0 0"/>
+    <mass value="0.025354039664650947"/>
+    <inertia ixx="3e-06" iyy="3e-06" izz="5e-06" ixy="1e-06" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.116239 -0.139645 -0.03695" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Connection_Mount_v2__7__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.116239 -0.139645 -0.03695" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Connection_Mount_v2__7__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Connection_Mount_v2__1__1">
+  <inertial>
+    <origin xyz="0.0056584188083653175 0.01696885131864395 0.0030959460437592276" rpy="0 0 0"/>
+    <mass value="0.025354039664650947"/>
+    <inertia ixx="3e-06" iyy="3e-06" izz="5e-06" ixy="-1e-06" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.128331 0.15018 -0.03695" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Connection_Mount_v2__1__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.128331 0.15018 -0.03695" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Connection_Mount_v2__1__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Connection_Mount_v2__3__1">
+  <inertial>
+    <origin xyz="0.005658046386871868 0.01696968348611301 0.003095946043759887" rpy="0 0 0"/>
+    <mass value="0.025354039664650947"/>
+    <inertia ixx="3e-06" iyy="3e-06" izz="5e-06" ixy="-1e-06" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.139645 -0.116239 -0.03695" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Connection_Mount_v2__3__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.139645 -0.116239 -0.03695" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Connection_Mount_v2__3__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Connection_Mount_v2__6__1">
+  <inertial>
+    <origin xyz="-0.005658046386874949 0.005658316513884265 0.002403413787430024" rpy="0 0 0"/>
+    <mass value="0.025354039664650947"/>
+    <inertia ixx="3e-06" iyy="3e-06" izz="5e-06" ixy="-1e-06" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.139645 0.138867 -0.04245" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Connection_Mount_v2__6__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.139645 0.138867 -0.04245" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Connection_Mount_v2__6__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Connection_Mount_v2__5__1">
+  <inertial>
+    <origin xyz="-0.005658316513883904 -0.005658046386874949 0.0024034137874304404" rpy="0 0 0"/>
+    <mass value="0.025354039664650947"/>
+    <inertia ixx="3e-06" iyy="3e-06" izz="5e-06" ixy="1e-06" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.138867 -0.139645 -0.04245" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Connection_Mount_v2__5__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.138867 -0.139645 -0.04245" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Connection_Mount_v2__5__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Connection_Mount_v2_1">
+  <inertial>
+    <origin xyz="0.005658046386874727 -0.0056583165138840985 0.002403413787430475" rpy="0 0 0"/>
+    <mass value="0.025354039664650947"/>
+    <inertia ixx="3e-06" iyy="3e-06" izz="5e-06" ixy="-1e-06" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.139645 -0.138867 -0.04245" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Connection_Mount_v2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.139645 -0.138867 -0.04245" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Connection_Mount_v2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Connection_Mount_v2__4__1">
+  <inertial>
+    <origin xyz="0.0056583165138840985 0.005658046386875087 0.0024034137874304334" rpy="0 0 0"/>
+    <mass value="0.025354039664650947"/>
+    <inertia ixx="3e-06" iyy="3e-06" izz="5e-06" ixy="1e-06" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.138867 0.139645 -0.04245" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Connection_Mount_v2__4__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.138867 0.139645 -0.04245" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Connection_Mount_v2__4__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="AX-12A_v2__4__1">
+  <inertial>
+    <origin xyz="0.01276740767261142 0.010505649410724571 0.013499674887634129" rpy="0 0 0"/>
+    <mass value="0.04345725719437503"/>
+    <inertia ixx="9e-06" iyy="8e-06" izz="1.2e-05" ixy="2e-06" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.128331 0.15018 -0.04795" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2__4__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.128331 0.15018 -0.04795" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2__4__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="AX-12A_v2__5__1">
+  <inertial>
+    <origin xyz="-0.01050564941072396 0.012767407672610837 0.013499674887634698" rpy="0 0 0"/>
+    <mass value="0.04345725719437503"/>
+    <inertia ixx="8e-06" iyy="9e-06" izz="1.2e-05" ixy="-2e-06" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.15018 -0.128331 -0.04795" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2__5__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.15018 -0.128331 -0.04795" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2__5__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="AX-12A_v2__6__1">
+  <inertial>
+    <origin xyz="-0.012767407672610975 -0.010505649410724516 0.013499674887634788" rpy="0 0 0"/>
+    <mass value="0.04345725719437503"/>
+    <inertia ixx="9e-06" iyy="8e-06" izz="1.2e-05" ixy="2e-06" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.128331 -0.15018 -0.04795" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2__6__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.128331 -0.15018 -0.04795" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2__6__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="AX-12A_v2__11__1">
+  <inertial>
+    <origin xyz="0.010505649410724155 -0.012767407672610809 0.01349967488763467" rpy="0 0 0"/>
+    <mass value="0.04345725719437503"/>
+    <inertia ixx="8e-06" iyy="9e-06" izz="1.2e-05" ixy="-2e-06" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.15018 0.128331 -0.04795" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2__11__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.15018 0.128331 -0.04795" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/AX-12A_v2__11__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Finger_with_Horn_v3__2__1">
+  <inertial>
+    <origin xyz="-0.054270581194146655 -0.03476621990377737 -0.0016312128257605918" rpy="0 0 0"/>
+    <mass value="0.06747788765266144"/>
+    <inertia ixx="4.3e-05" iyy="4.7e-05" izz="8.3e-05" ixy="-2.2e-05" iyz="-4e-06" ixz="-4e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.139574 0.159798 -0.06145" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Finger_with_Horn_v3__2__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.139574 0.159798 -0.06145" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Finger_with_Horn_v3__2__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Finger_with_Horn_v3__1__1">
+  <inertial>
+    <origin xyz="0.03476621990377837 -0.05427058119414599 -0.0016312128257624375" rpy="0 0 0"/>
+    <mass value="0.06747788765266144"/>
+    <inertia ixx="4.7e-05" iyy="4.3e-05" izz="8.3e-05" ixy="2.2e-05" iyz="-4e-06" ixz="4e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.159798 0.139574 -0.06145" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Finger_with_Horn_v3__1__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.159798 0.139574 -0.06145" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Finger_with_Horn_v3__1__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Finger_with_Horn_v3__3__1">
+  <inertial>
+    <origin xyz="0.054270581194147155 0.034766219903777484 -0.0016312128257606542" rpy="0 0 0"/>
+    <mass value="0.06747788765266144"/>
+    <inertia ixx="4.3e-05" iyy="4.7e-05" izz="8.3e-05" ixy="-2.2e-05" iyz="4e-06" ixz="4e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.139574 -0.159798 -0.06145" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Finger_with_Horn_v3__3__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.139574 -0.159798 -0.06145" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Finger_with_Horn_v3__3__1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Finger_with_Horn_v3_1">
+  <inertial>
+    <origin xyz="-0.03476621990377776 0.054270581194146156 -0.0016312128257595163" rpy="0 0 0"/>
+    <mass value="0.06747788765266144"/>
+    <inertia ixx="4.7e-05" iyy="4.3e-05" izz="8.3e-05" ixy="2.2e-05" iyz="4e-06" ixz="-4e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.159798 -0.139574 -0.06145" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Finger_with_Horn_v3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.159798 -0.139574 -0.06145" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Fred_description/meshes/Finger_with_Horn_v3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Rigid 1" type="fixed">
+  <origin xyz="0.067838 -0.048746 0.005" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="U-Mount_v2__2__1"/>
+</joint>
+
+<joint name="Rigid 2" type="fixed">
+  <origin xyz="0.048746 0.067838 0.005" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="U-Mount_v2_1"/>
+</joint>
+
+<joint name="Rigid 3" type="fixed">
+  <origin xyz="-0.067838 0.048746 0.005" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="U-Mount_v2__1__1"/>
+</joint>
+
+<joint name="Rigid 4" type="fixed">
+  <origin xyz="-0.048746 -0.067838 0.005" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="U-Mount_v2__3__1"/>
+</joint>
+
+<joint name="Rigid 5" type="fixed">
+  <origin xyz="0.011314 -0.011314 0.003" rpy="0 0 0"/>
+  <parent link="U-Mount_v2__2__1"/>
+  <child link="AX-12A_v2__2__1"/>
+</joint>
+
+<joint name="Rigid 6" type="fixed">
+  <origin xyz="0.011314 0.011314 0.003" rpy="0 0 0"/>
+  <parent link="U-Mount_v2_1"/>
+  <child link="AX-12A_v2__3__1"/>
+</joint>
+
+<joint name="Rigid 7" type="fixed">
+  <origin xyz="0.007778 0.030406 0.003" rpy="0 0 0"/>
+  <parent link="U-Mount_v2__1__1"/>
+  <child link="AX-12A_v2__10__1"/>
+</joint>
+
+<joint name="Rigid 8" type="fixed">
+  <origin xyz="-0.030406 0.007778 0.003" rpy="0 0 0"/>
+  <parent link="U-Mount_v2__3__1"/>
+  <child link="AX-12A_v2__9__1"/>
+</joint>
+
+<joint name="Revolute 9" type="revolute">
+  <origin xyz="-0.000884 -0.019976 0.02975" rpy="0 0 0"/>
+  <parent link="AX-12A_v2__9__1"/>
+  <child link="F2_Frame_with_Horn_v3__4__1"/>
+  <axis xyz="0.0 -0.0 1.0"/>
+  <limit upper="1.745329" lower="-1.745329" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute 10" type="revolute">
+  <origin xyz="0.000884 -0.019976 0.02975" rpy="0 0 0"/>
+  <parent link="AX-12A_v2__2__1"/>
+  <child link="F2_Frame_with_Horn_v3__5__1"/>
+  <axis xyz="0.0 -0.0 1.0"/>
+  <limit upper="1.745329" lower="-1.745329" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute 11" type="revolute">
+  <origin xyz="0.019976 0.000884 0.02975" rpy="0 0 0"/>
+  <parent link="AX-12A_v2__3__1"/>
+  <child link="F2_Frame_with_Horn_v3__1__1"/>
+  <axis xyz="-0.0 0.0 1.0"/>
+  <limit upper="1.745329" lower="-1.745329" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute 12" type="revolute">
+  <origin xyz="-0.019976 0.000884 0.02975" rpy="0 0 0"/>
+  <parent link="AX-12A_v2__10__1"/>
+  <child link="F2_Frame_with_Horn_v3_1"/>
+  <axis xyz="-0.0 -0.0 1.0"/>
+  <limit upper="1.745329" lower="-1.745329" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Rigid 13" type="fixed">
+  <origin xyz="-0.018738 -0.018738 -0.0063" rpy="0 0 0"/>
+  <parent link="F2_Frame_with_Horn_v3__4__1"/>
+  <child link="F2_Frame_with_Horn_v3__6__1"/>
+</joint>
+
+<joint name="Rigid 14" type="fixed">
+  <origin xyz="-0.018738 0.018738 -0.0063" rpy="0 0 0"/>
+  <parent link="F2_Frame_with_Horn_v3_1"/>
+  <child link="F2_Frame_with_Horn_v3__2__1"/>
+</joint>
+
+<joint name="Rigid 15" type="fixed">
+  <origin xyz="0.018738 0.018738 -0.0063" rpy="0 0 0"/>
+  <parent link="F2_Frame_with_Horn_v3__1__1"/>
+  <child link="F2_Frame_with_Horn_v3__3__1"/>
+</joint>
+
+<joint name="Rigid 16" type="fixed">
+  <origin xyz="0.018738 -0.018738 -0.0063" rpy="0 0 0"/>
+  <parent link="F2_Frame_with_Horn_v3__5__1"/>
+  <child link="F2_Frame_with_Horn_v3__7__1"/>
+</joint>
+
+<joint name="Revolute 17" type="revolute">
+  <origin xyz="-0.008627 -0.02885 -0.008" rpy="0 0 0"/>
+  <parent link="F2_Frame_with_Horn_v3__6__1"/>
+  <child link="AX-12A_v2__8__1"/>
+  <axis xyz="-0.707107 0.707107 0.0"/>
+  <limit upper="1.745329" lower="-1.919862" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute 18" type="revolute">
+  <origin xyz="-0.02885 0.008627 -0.008" rpy="0 0 0"/>
+  <parent link="F2_Frame_with_Horn_v3__2__1"/>
+  <child link="AX-12A_v2_1"/>
+  <axis xyz="0.707107 0.707107 0.0"/>
+  <limit upper="1.745329" lower="-1.745329" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute 19" type="revolute">
+  <origin xyz="0.008627 0.02885 -0.008" rpy="0 0 0"/>
+  <parent link="F2_Frame_with_Horn_v3__3__1"/>
+  <child link="AX-12A_v2__1__1"/>
+  <axis xyz="0.707107 -0.707107 0.0"/>
+  <limit upper="1.745329" lower="-1.745329" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute 20" type="revolute">
+  <origin xyz="0.02885 -0.008627 -0.008" rpy="0 0 0"/>
+  <parent link="F2_Frame_with_Horn_v3__7__1"/>
+  <child link="AX-12A_v2__7__1"/>
+  <axis xyz="-0.707107 -0.707107 0.0"/>
+  <limit upper="1.745329" lower="-1.745329" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Rigid 21" type="fixed">
+  <origin xyz="-0.020152 -0.023335 0.0135" rpy="0 0 0"/>
+  <parent link="AX-12A_v2__8__1"/>
+  <child link="Connection_Mount_v2__2__1"/>
+</joint>
+
+<joint name="Rigid 22" type="fixed">
+  <origin xyz="0.008838 0.012021 0.0135" rpy="0 0 0"/>
+  <parent link="AX-12A_v2__1__1"/>
+  <child link="Connection_Mount_v2__7__1"/>
+</joint>
+
+<joint name="Rigid 23" type="fixed">
+  <origin xyz="0.000707 -0.042779 0.0135" rpy="0 0 0"/>
+  <parent link="AX-12A_v2__7__1"/>
+  <child link="Connection_Mount_v2__1__1"/>
+</joint>
+
+<joint name="Rigid 24" type="fixed">
+  <origin xyz="-0.012021 0.008838 0.0135" rpy="0 0 0"/>
+  <parent link="AX-12A_v2_1"/>
+  <child link="Connection_Mount_v2__3__1"/>
+</joint>
+
+<joint name="Rigid 25" type="fixed">
+  <origin xyz="0.011314 0.011313 0.0055" rpy="0 0 0"/>
+  <parent link="Connection_Mount_v2__1__1"/>
+  <child link="Connection_Mount_v2__6__1"/>
+</joint>
+
+<joint name="Rigid 26" type="fixed">
+  <origin xyz="0.022628 0.0 0.0055" rpy="0 0 0"/>
+  <parent link="Connection_Mount_v2__7__1"/>
+  <child link="Connection_Mount_v2__5__1"/>
+</joint>
+
+<joint name="Rigid 27" type="fixed">
+  <origin xyz="0.0 0.022628 0.0055" rpy="0 0 0"/>
+  <parent link="Connection_Mount_v2__3__1"/>
+  <child link="Connection_Mount_v2_1"/>
+</joint>
+
+<joint name="Rigid 28" type="fixed">
+  <origin xyz="-0.011314 0.011314 0.0055" rpy="0 0 0"/>
+  <parent link="Connection_Mount_v2__2__1"/>
+  <child link="Connection_Mount_v2__4__1"/>
+</joint>
+
+<joint name="Rigid 29" type="fixed">
+  <origin xyz="-0.011314 -0.011313 0.0055" rpy="0 0 0"/>
+  <parent link="Connection_Mount_v2__6__1"/>
+  <child link="AX-12A_v2__4__1"/>
+</joint>
+
+<joint name="Rigid 30" type="fixed">
+  <origin xyz="0.011313 -0.011314 0.0055" rpy="0 0 0"/>
+  <parent link="Connection_Mount_v2__5__1"/>
+  <child link="AX-12A_v2__5__1"/>
+</joint>
+
+<joint name="Rigid 31" type="fixed">
+  <origin xyz="0.011314 0.011313 0.0055" rpy="0 0 0"/>
+  <parent link="Connection_Mount_v2_1"/>
+  <child link="AX-12A_v2__6__1"/>
+</joint>
+
+<joint name="Rigid 32" type="fixed">
+  <origin xyz="-0.011313 0.011314 0.0055" rpy="0 0 0"/>
+  <parent link="Connection_Mount_v2__4__1"/>
+  <child link="AX-12A_v2__11__1"/>
+</joint>
+
+<joint name="Revolute 33" type="revolute">
+  <origin xyz="0.010606 -0.031467 0.0135" rpy="0 0 0"/>
+  <parent link="AX-12A_v2__11__1"/>
+  <child link="Finger_with_Horn_v3__2__1"/>
+  <axis xyz="0.707107 -0.707107 0.0"/>
+  <limit upper="1.745329" lower="-2.356194" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute 34" type="revolute">
+  <origin xyz="0.031467 0.010606 0.0135" rpy="0 0 0"/>
+  <parent link="AX-12A_v2__4__1"/>
+  <child link="Finger_with_Horn_v3__1__1"/>
+  <axis xyz="0.707107 0.707107 -0.0"/>
+  <limit upper="1.745329" lower="-2.356194" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute 35" type="revolute">
+  <origin xyz="-0.010606 0.031467 0.0135" rpy="0 0 0"/>
+  <parent link="AX-12A_v2__5__1"/>
+  <child link="Finger_with_Horn_v3__3__1"/>
+  <axis xyz="-0.707107 0.707107 0.0"/>
+  <limit upper="1.745329" lower="-2.356194" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute 36" type="revolute">
+  <origin xyz="-0.031467 -0.010606 0.0135" rpy="0 0 0"/>
+  <parent link="AX-12A_v2__6__1"/>
+  <child link="Finger_with_Horn_v3_1"/>
+  <axis xyz="-0.707107 -0.707107 -0.0"/>
+  <limit upper="1.745329" lower="-2.356194" effort="100" velocity="100"/>
+</joint>
+
+</robot>

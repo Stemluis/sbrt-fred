@@ -1,0 +1,15 @@
+/home/luis/fred/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+/home/luis/fred/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+/home/luis/fred/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+/home/luis/fred/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+/home/luis/fred/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+/home/luis/fred/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+/home/luis/fred/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+/home/luis/fred/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+/home/luis/fred/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+/home/luis/fred/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+/home/luis/fred/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+/home/luis/fred/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+/home/luis/fred/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+/home/luis/fred/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+/home/luis/fred/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml

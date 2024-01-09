@@ -1,0 +1,6 @@
+Invoking command in '/home/luis/fred/build/fred_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/luis/fred/src/fred_controller -DCMAKE_INSTALL_PREFIX=/home/luis/fred/install/fred_controller
+Invoked command in '/home/luis/fred/build/fred_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/luis/fred/src/fred_controller -DCMAKE_INSTALL_PREFIX=/home/luis/fred/install/fred_controller
+Invoking command in '/home/luis/fred/build/fred_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luis/fred/build/fred_controller -- -j16 -l16
+Invoked command in '/home/luis/fred/build/fred_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luis/fred/build/fred_controller -- -j16 -l16
+Invoking command in '/home/luis/fred/build/fred_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luis/fred/build/fred_controller
+Invoked command in '/home/luis/fred/build/fred_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luis/fred/build/fred_controller
