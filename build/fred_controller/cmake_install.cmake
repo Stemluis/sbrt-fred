@@ -1,8 +1,8 @@
-# Install script for directory: /home/luis/fred/src/fred_controller
+# Install script for directory: /home/stemluis/Documents/Fred/src/fred_controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/luis/fred/install/fred_controller")
+  set(CMAKE_INSTALL_PREFIX "/home/stemluis/Documents/Fred/install/fred_controller")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/luis/fred/build/fred_controller/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/stemluis/Documents/Fred/build/fred_controller/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/luis/fred/build/fred_controller/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/stemluis/Documents/Fred/build/fred_controller/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

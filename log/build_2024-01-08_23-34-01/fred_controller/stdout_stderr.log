@@ -1,0 +1,17 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/ament_index/resource_index/package_run_dependencies/fred_controller
+-- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/ament_index/resource_index/parent_prefix_path/fred_controller
+-- Up-to-date symlink: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/environment/ament_prefix_path.sh
+-- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/environment/path.sh
+-- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/environment/path.dsv
+-- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/local_setup.bash
+-- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/local_setup.sh
+-- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/local_setup.zsh
+-- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/local_setup.dsv
+-- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/package.dsv
+-- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/ament_index/resource_index/packages/fred_controller
+-- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/cmake/fred_controllerConfig.cmake
+-- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/cmake/fred_controllerConfig-version.cmake
+-- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/package.xml

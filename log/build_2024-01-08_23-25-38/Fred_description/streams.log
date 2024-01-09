@@ -1,0 +1,40 @@
+[0.125s] Invoking command in '/home/stemluis/Documents/Fred/build/Fred_description': /usr/bin/cmake /home/stemluis/Documents/Fred/Fred_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/stemluis/Documents/Fred/install/Fred_description
+[0.392s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.392s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.393s]   CMake.
+[0.393s] 
+[0.393s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.393s]   CMake that the project does not need compatibility with older versions.
+[0.393s] 
+[0.393s] [0m
+[0.997s] -- The C compiler identification is GNU 11.4.0
+[1.443s] -- The CXX compiler identification is GNU 11.4.0
+[1.466s] -- Detecting C compiler ABI info
+[1.633s] -- Detecting C compiler ABI info - done
+[1.641s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.642s] -- Detecting C compile features
+[1.650s] -- Detecting C compile features - done
+[1.656s] -- Detecting CXX compiler ABI info
+[1.757s] -- Detecting CXX compiler ABI info - done
+[1.766s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.766s] -- Detecting CXX compile features
+[1.766s] -- Detecting CXX compile features - done
+[1.857s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[1.857s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.857s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.857s]   CMake did not find one.
+[1.857s] 
+[1.857s]   Could not find a package configuration file provided by "catkin" with any
+[1.858s]   of the following names:
+[1.858s] 
+[1.858s]     catkinConfig.cmake
+[1.858s]     catkin-config.cmake
+[1.858s] 
+[1.858s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.858s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.858s]   provides a separate development package or SDK, be sure it has been
+[1.858s]   installed.
+[1.858s] 
+[1.858s] [0m
+[1.858s] -- Configuring incomplete, errors occurred!
+[1.858s] See also "/home/stemluis/Documents/Fred/build/Fred_description/CMakeFiles/CMakeOutput.log".

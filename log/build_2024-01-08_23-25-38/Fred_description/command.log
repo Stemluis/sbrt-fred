@@ -1,0 +1,1 @@
+Invoking command in '/home/stemluis/Documents/Fred/build/Fred_description': /usr/bin/cmake /home/stemluis/Documents/Fred/Fred_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/stemluis/Documents/Fred/install/Fred_description

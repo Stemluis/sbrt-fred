@@ -1,1 +1,1 @@
-/home/luis/fred/build/fred_controller/ament_cmake_core/fred_controllerConfig.cmake
+/home/stemluis/Documents/Fred/build/fred_controller/ament_cmake_core/fred_controllerConfig.cmake

@@ -1,0 +1,21 @@
+[0.071s] Invoking command in '/home/stemluis/Documents/Fred/build/fred_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/stemluis/Documents/Fred/build/fred_controller -- -j3 -l3
+[0.119s] Invoked command in '/home/stemluis/Documents/Fred/build/fred_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/stemluis/Documents/Fred/build/fred_controller -- -j3 -l3
+[0.163s] Invoking command in '/home/stemluis/Documents/Fred/build/fred_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/stemluis/Documents/Fred/build/fred_controller
+[0.174s] -- Install configuration: ""
+[0.174s] -- Execute custom install script
+[0.175s] -- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/ament_index/resource_index/package_run_dependencies/fred_controller
+[0.185s] -- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/ament_index/resource_index/parent_prefix_path/fred_controller
+[0.195s] -- Up-to-date symlink: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/environment/ament_prefix_path.sh
+[0.195s] -- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/environment/ament_prefix_path.dsv
+[0.204s] -- Up-to-date symlink: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/environment/path.sh
+[0.204s] -- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/environment/path.dsv
+[0.213s] -- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/local_setup.bash
+[0.223s] -- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/local_setup.sh
+[0.238s] -- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/local_setup.zsh
+[0.246s] -- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/local_setup.dsv
+[0.256s] -- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/package.dsv
+[0.264s] -- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/ament_index/resource_index/packages/fred_controller
+[0.274s] -- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/cmake/fred_controllerConfig.cmake
+[0.284s] -- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/cmake/fred_controllerConfig-version.cmake
+[0.294s] -- Symlinking: /home/stemluis/Documents/Fred/install/fred_controller/share/fred_controller/package.xml
+[0.304s] Invoked command in '/home/stemluis/Documents/Fred/build/fred_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/stemluis/Documents/Fred/build/fred_controller

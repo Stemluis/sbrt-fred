@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/fred/src/fred_controller
+CMAKE_SOURCE_DIR = /home/stemluis/Documents/Fred/src/fred_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/fred/build/fred_controller
+CMAKE_BINARY_DIR = /home/stemluis/Documents/Fred/build/fred_controller
 
 # Utility rule file for fred_controller_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/fred_controller_uninstall.dir/compiler_depend.make
 include CMakeFiles/fred_controller_uninstall.dir/progress.make
 
 CMakeFiles/fred_controller_uninstall:
-	/usr/bin/cmake -P /home/luis/fred/build/fred_controller/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/stemluis/Documents/Fred/build/fred_controller/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 fred_controller_uninstall: CMakeFiles/fred_controller_uninstall
 fred_controller_uninstall: CMakeFiles/fred_controller_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/fred_controller_uninstall.dir/clean:
 .PHONY : CMakeFiles/fred_controller_uninstall.dir/clean
 
 CMakeFiles/fred_controller_uninstall.dir/depend:
-	cd /home/luis/fred/build/fred_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/fred/src/fred_controller /home/luis/fred/src/fred_controller /home/luis/fred/build/fred_controller /home/luis/fred/build/fred_controller /home/luis/fred/build/fred_controller/CMakeFiles/fred_controller_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stemluis/Documents/Fred/build/fred_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stemluis/Documents/Fred/src/fred_controller /home/stemluis/Documents/Fred/src/fred_controller /home/stemluis/Documents/Fred/build/fred_controller /home/stemluis/Documents/Fred/build/fred_controller /home/stemluis/Documents/Fred/build/fred_controller/CMakeFiles/fred_controller_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/fred_controller_uninstall.dir/depend
 

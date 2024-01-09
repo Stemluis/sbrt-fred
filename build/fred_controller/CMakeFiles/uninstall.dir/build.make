@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/fred/src/fred_controller
+CMAKE_SOURCE_DIR = /home/stemluis/Documents/Fred/src/fred_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/fred/build/fred_controller
+CMAKE_BINARY_DIR = /home/stemluis/Documents/Fred/build/fred_controller
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/luis/fred/build/fred_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/fred/src/fred_controller /home/luis/fred/src/fred_controller /home/luis/fred/build/fred_controller /home/luis/fred/build/fred_controller /home/luis/fred/build/fred_controller/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stemluis/Documents/Fred/build/fred_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stemluis/Documents/Fred/src/fred_controller /home/stemluis/Documents/Fred/src/fred_controller /home/stemluis/Documents/Fred/build/fred_controller /home/stemluis/Documents/Fred/build/fred_controller /home/stemluis/Documents/Fred/build/fred_controller/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 
